@@ -5,7 +5,7 @@ using UnityEngine;
 public class CamControll : MonoBehaviour
 {
     public GameObject carro;
-    public Vector3 upCam = new Vector3(0,0,920);
+    public Vector3 upCam = new Vector3(0,10,-00);
 
     // Start is called before the first frame update
     void Start()
