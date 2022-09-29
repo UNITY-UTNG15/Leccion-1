@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-09-14T17:21:52.079-05:00
-  initializedAtString: 2022-09-14T17:21:48.122-05:00
+  lastUpdatedAtString: 2022-09-28T21:36:16.834-05:00
+  initializedAtString: 2022-09-28T21:36:16.834-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/UNITY-UTNG15/unity.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: main
-    tracking: 
+    tracking: origin/main
   currentConfigBranch:
     name: main
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/UNITY-UTNG15/unity.git
+    trackingBranch: main
   currentConfigRemote:
     name: origin
     url: https://github.com/UNITY-UTNG15/unity.git

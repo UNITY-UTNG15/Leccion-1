@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-09-14T17:21:52.104-05:00
-  initializedAtString: 2022-09-14T17:21:52.089-05:00
-  localBranches:
-  - name: main
-    tracking: 
-  remoteBranches: []
+  lastUpdatedAtString: 2022-09-28T21:36:18.706-05:00
+  initializedAtString: 2022-09-28T21:36:17.602-05:00
+  localBranches: []
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/UNITY-UTNG15/unity.git
@@ -28,18 +28,21 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys:
-    - main
-    values:
-    - name: main
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
-  remoteConfigBranches:
     keys: []
-    subKeys: []
-    subKeyValues: []
+    values: []
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - main
+    subKeyValues:
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/UNITY-UTNG15/unity.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
